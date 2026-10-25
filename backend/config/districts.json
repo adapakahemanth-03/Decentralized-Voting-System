@@ -1,0 +1,52 @@
+[
+  {
+    "state": "Maharashtra",
+    "districts": [
+      { "id": 1,  "name": "Mumbai" },
+      { "id": 2,  "name": "Pune" },
+      { "id": 3,  "name": "Nagpur" },
+      { "id": 4,  "name": "Nashik" },
+      { "id": 5,  "name": "Aurangabad" }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "districts": [
+      { "id": 6,  "name": "New Delhi" },
+      { "id": 7,  "name": "North Delhi" },
+      { "id": 8,  "name": "South Delhi" },
+      { "id": 9,  "name": "East Delhi" },
+      { "id": 10, "name": "West Delhi" }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "districts": [
+      { "id": 11, "name": "Bengaluru" },
+      { "id": 12, "name": "Mysuru" },
+      { "id": 13, "name": "Mangaluru" },
+      { "id": 14, "name": "Hubli" },
+      { "id": 15, "name": "Belagavi" }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "districts": [
+      { "id": 16, "name": "Chennai" },
+      { "id": 17, "name": "Coimbatore" },
+      { "id": 18, "name": "Madurai" },
+      { "id": 19, "name": "Salem" },
+      { "id": 20, "name": "Tiruchirappalli" }
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "districts": [
+      { "id": 21, "name": "Lucknow" },
+      { "id": 22, "name": "Kanpur" },
+      { "id": 23, "name": "Agra" },
+      { "id": 24, "name": "Varanasi" },
+      { "id": 25, "name": "Allahabad" }
+    ]
+  }
+]

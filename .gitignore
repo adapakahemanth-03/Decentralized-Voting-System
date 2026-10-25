@@ -1,0 +1,23 @@
+# Dependencies
+**/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Hardhat generated files
+artifacts/
+cache/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
