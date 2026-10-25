@@ -169,7 +169,7 @@ npm run dev
 ## 🗳️ Demonstration Walkthrough
 
 ### 1. Admin Login & Setup
-1. Open [http://localhost:5173/admin](http://localhost:5173/admin).
+1. Open 
 2. Log in with the default admin account:
    - **Email**: `admin@example.com`
    - **Password**: `password123`
@@ -195,7 +195,7 @@ npm run dev
 4. Adding voters and candidates is now locked until the election is stopped.
 
 ### 5. Cast Votes as Citizens
-1. Open [http://localhost:5173](http://localhost:5173).
+1. Open 
 2. Enter the generated **Voter ID**.
 3. Verify your personal identity details on screen and click **Confirm & View Candidates**.
 4. Browse the candidate list and symbols, then click **Vote** next to your preferred candidate.
@@ -206,54 +206,6 @@ npm run dev
 1. Return to the **Admin Dashboard** and click **🛑 Stop Election**.
 2. The election stops and status changes to **`⚪ ELECTION INACTIVE`**.
 3. Click **📊 View Election Results** to view the final ranked vote counts.
-
----
-
-## 📂 Project Directory Layout
-
-```text
-EVoting/
-├── contracts/
-│   └── Election.sol            # Solidity Smart Contract
-├── scripts/
-│   └── deploy.js               # Contract deployment automation script
-├── test/
-│   └── Election.test.js        # Hardhat unit tests for smart contract
-├── hardhat.config.js           # Hardhat configuration
-├── backend/
-│   ├── server.js               # Express application entry point
-│   ├── contractAddress.json    # Auto-generated contract deployment address
-│   ├── config/
-│   │   ├── db.js               # SQLite database setup (sql.js)
-│   │   ├── contract.js         # Ethers.js contract instance and ABI
-│   │   └── districts.json      # District reference data
-│   ├── routes/
-│   │   ├── adminAuth.js        # Admin authentication routes
-│   │   ├── admin.js            # Admin management & blockchain endpoints
-│   │   └── voter.js            # Voter authentication & ballot routes
-│   └── utils/
-│       ├── hashHelper.js       # Keccak256 voter hashing utilities
-│       └── idGenerator.js      # Unique Voter ID generator
-└── frontend/
-    ├── index.html              # Frontend root HTML
-    └── src/
-        ├── App.jsx             # React router & route guards
-        ├── styles.css          # Custom styling with light blue theme
-        ├── services/
-        │   └── api.js          # Client API communication methods
-        ├── components/
-        │   ├── Header.jsx      # Portal header component
-        │   ├── AdminNav.jsx    # Admin navigation bar
-        │   ├── RoleSwitch.jsx  # Toggle between Citizen and Admin views
-        │   └── ElectionStatusCard.jsx # Dynamic election status indicator
-        └── pages/
-            ├── VoterPage.jsx   # Citizen identification & voting portal
-            ├── AdminLogin.jsx  # Admin login and registration page
-            ├── AdminDashboard.jsx # Election lifecycle controls & stats
-            ├── AddVoter.jsx    # Voter registration & unique ID screen
-            ├── AddCandidate.jsx# Candidate registration with emoji picker
-            └── Results.jsx     # Election results and tallying screen
-```
 
 ---
 
